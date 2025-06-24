@@ -1,0 +1,132 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(305, 46%, 86%); /* Cor de fundo clara e agradável */
+  font-family: 'Times New Roman', sans-serif;
+  color: #0d0d0e;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ---------- Títulos ---------- */
+h1, h2 {
+  color: #511f8a;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* ---------- Parágrafos ---------- */
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* ---------- Menu de navegação ---------- */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-bottom: 2px solid #ddd;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* ---------- Botão de destaque ---------- */
+.botao-destaque {
+  background-color: #e0a9e6dc;
+  color: rgb(27, 26, 27);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.botao-destaque:hover {
+  background-color: #f0c5ece0;}
+  /* ---------- Botões no Topo do Conteúdo ---------- */
+.acoes-topo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.botao-topo {
+  background-color: #e0a9e6dc;
+  color: #1b1a1b;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-topo:hover {
+  background-color: #f0c5ece0;
+}
+
+/* ---------- Produtos ---------- */
+.grade-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card-produto {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card-produto img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-produto h3 {
+  margin-bottom: 5px;
+  color: #511f8a;
+}
+
+.card-produto p {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.botao-comprar {
+  display: inline-block;
+  background-color: #e0a9e6dc;
+  color: #1b1a1b;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-comprar:hover {
+  background-color: #f0c5ece0;
+}
+
+
